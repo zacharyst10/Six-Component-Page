@@ -1,0 +1,94 @@
+html {
+    background-color: skyblue;
+    font-family: 'montserrat';
+}
+
+
+
+body {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.app {
+    margin-top: 2rem;
+    display: grid;
+    justify-items: center;
+    background-color: yellow;
+    width: 80vw;
+    padding-bottom: 25px;
+   
+    
+
+
+    .align-me {
+        width: 95%;
+        background-color: aqua;
+        height: 150px;
+
+        .buttons {
+            display: flex;
+            width: 100%;
+            justify-content:space-between;
+            margin-top: 25px;
+          }
+    }
+
+    .hide-me {
+        background-color: #027f81;
+        width: 95%;
+        height: 150px;
+
+    }
+
+    .incrementor-wrapper {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: #308b59;
+        width: 95%;
+        height: 150px;
+        justify-content: center;
+        
+        .button-wrapper {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            width: 50%;
+
+
+            .incrementor-button {
+                font-size: 3em;
+            }
+        }
+        
+
+    }
+
+    .counter-wrapper {
+        background-color: #dd70d8;
+        width: 95%;
+        height: 150px;
+
+    }
+
+    .moment-wrapper {
+        background-color: red;
+        width: 95%;
+        height: 150px;
+
+    }
+
+    .color-text-wrapper {
+        background-color: #fff7dd;
+        width: 95%;
+        height: 150px;
+
+    }
+
+
+    
+}
